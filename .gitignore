@@ -1,0 +1,28 @@
+# Large dataset files & archives
+dataset/
+*.zip
+*.tar.gz
+*.7z
+output/*.tsv
+!output/.gitkeep
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*.class
+*.so
+.pytest_cache/
+
+# Virtual Environments
+env/
+venv/
+.venv/
+ENV/
+
+# IDE & OS metadata
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
